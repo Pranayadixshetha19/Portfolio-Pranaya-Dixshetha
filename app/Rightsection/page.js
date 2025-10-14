@@ -97,7 +97,7 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="skills lg:my-[50px]">
-                    <h1 className=" font-cal lg:text-[45px] text-[30px]">Technical &amp; Soft skills</h1>
+                    <h1 className=" font-cal lg:text-[45px] max-lg:text-[40px] text-[30px]">Technical &amp; Soft skills</h1>
                     <div className="grid grid-cols-2 p-4 gap-5 my-5 text-[rgb(122,142,179)] ">
                         <div className="program lg:p-4 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
                             <span className="text-white">Frontend</span>
