@@ -21,7 +21,7 @@ export default function CursorGlow() {
   return (
     <div
       id="cursorGlow"
-      className="fixed w-[100px] h-[100px] rounded-full 
+      className="max-lg:hidden fixed w-[100px] h-[100px] rounded-full 
       bg-[rgba(3,116,245,0.4)] 
       shadow-[10px_10px_200px_100px_rgb(0_119_255/0.6)] 
       pointer-events-none 

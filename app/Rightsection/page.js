@@ -43,7 +43,7 @@ export default function Home({ setActivestate }) {
             </section>
             <section id="About-Section" className="about-section lg:my-[50px]">
                 <div className="edu ">
-                    <h1 className="font-cal lg:text-[45px] max-lg:text-[40px]">Education</h1>
+                    <h1 className="font-cal lg:text-[45px] my-5 max-lg:text-[40px]">Education</h1>
                     <div className="box flex p-4 gap-10 text-[rgb(122,142,179)] my-5 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
                         <div className="left w-1/4">2022&#45;Present</div> <div className="right">
                             <div className="name text-white">B.Tech in Information Technology</div>
@@ -65,7 +65,7 @@ export default function Home({ setActivestate }) {
                 </div>
                 <div className="certificated lg:my-[50px]">
                     <div >
-                        <h1 className="font-cal lg:text-[45px] max-lg:text-[40px]">Awards &amp; Achievements</h1>
+                        <h1 className="font-cal lg:text-[45px] text-[30px] max-lg:text-[40px]">Awards &amp; Achievements</h1>
                         <div className="my-2 ">
                             <div className="box flex flex-col p-4 my-2 text-[rgb(122,142,179)] hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)] ">
                                 <div className="my-1 text-white">Runner&#45;up &#45; Full Stack Hackathon 2024</div>
@@ -97,7 +97,7 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="skills lg:my-[50px]">
-                    <h1 className=" font-cal lg:text-[45px] text-[40px]">Technical &amp; Soft skills</h1>
+                    <h1 className=" font-cal lg:text-[45px] text-[30px]">Technical &amp; Soft skills</h1>
                     <div className="grid grid-cols-2 p-4 gap-5 my-5 text-[rgb(122,142,179)] ">
                         <div className="program lg:p-4 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
                             <span className="text-white">Frontend</span>
