@@ -14,7 +14,7 @@ const Left = ({ activestate }) => {
 
     return (
         <div className="left-section">
-            <h1 className="name lg:text-[50px] max-lg:text-[30px] font-cal text-white">
+            <h1 className="name lg:text-[50px] max-lg:text-[40px] font-cal text-white">
                 Pranaya Dixshetha
             </h1>
 
