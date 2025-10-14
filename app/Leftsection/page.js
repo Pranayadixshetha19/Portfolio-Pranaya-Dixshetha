@@ -1,6 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 
 const Left = ({ activestate }) => {
@@ -17,7 +19,7 @@ const Left = ({ activestate }) => {
             </h1>
 
             <div className="intro text-[rgb(122,142,179)] mb-5 w-1/2">
-                I build full-stack web apps with seamless UI and robust backend.
+                I build full&#45;stack web apps with seamless UI and robust backend.
             </div>
 
             <div className="list py-20 max-lg:hidden">
@@ -44,8 +46,9 @@ const Left = ({ activestate }) => {
                         rel="noopener noreferrer"
                         className="linkedin hover:text-white text-[rgb(122,142,179)]"
                     >
-                        <img
-                            width="30"
+                        <Image
+                            width={30}
+                            height={30}
                             className="hover:brightness-0 hover:invert"
                             src="linkdin.svg"
                             alt="LinkedIn"
@@ -57,8 +60,9 @@ const Left = ({ activestate }) => {
                         rel="noopener noreferrer"
                         className="insta hover:text-white text-[rgb(122,142,179)]"
                     >
-                        <img
-                            width="30"
+                        <Image
+                            width={30}
+                            height={30}
                             className="hover:brightness-0 hover:invert"
                             src="insta.svg"
                             alt="Instagram"
@@ -70,8 +74,9 @@ const Left = ({ activestate }) => {
                         rel="noopener noreferrer"
                         className="email hover:text-white text-[rgb(122,142,179)]"
                     >
-                        <img
-                            width="30"
+                        <Image
+                            width={30}
+                            height={30}
                             className="hover:brightness-0 hover:invert"
                             src="email.svg"
                             alt="Email"
@@ -83,8 +88,9 @@ const Left = ({ activestate }) => {
                         rel="noopener noreferrer"
                         className="mobile hover:text-white text-[rgb(122,142,179)]"
                     >
-                        <img
-                            width="30"
+                        <Image
+                            width={30}
+                            height={30}
                             className="hover:brightness-0 hover:invert"
                             src="mobile.png"
                             alt="Mobile"
@@ -96,8 +102,9 @@ const Left = ({ activestate }) => {
                         rel="noopener noreferrer"
                         className="gitup hover:text-white "
                     >
-                        <img
-                            width="35"
+                        <Image
+                            width={35}
+                            height={35}
                             className="hover:brightness-0 hover:invert"
                             src="gitup.svg"
                             alt="Mobile"

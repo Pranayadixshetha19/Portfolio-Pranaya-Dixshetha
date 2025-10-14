@@ -35,9 +35,9 @@ export default function Home({ setActivestate }) {
     return (
         <div className="">
             <section id="main" className="text-[rgb(122,142,179)]">
-                <div className="about"> I’m a full-stack developer passionate about building seamless, high-performance web applications where design meets functionality. I love transforming ideas into intuitive digital experiences—from crafting responsive, accessible interfaces to developing scalable backend systems. Whether it’s implementing robust APIs, optimizing databases, or bringing a designer’s vision to life, I’m driven by a commitment to clean architecture, usability, and technical excellence.
+                <div className="about"> I&apos; m a full-stack developer passionate about building seamless, high&#45;performance web applications where design meets functionality. I love transforming ideas into intuitive digital experiences&#45;from crafting responsive, accessible interfaces to developing scalable backend systems. Whether it&apos; s implementing robust APIs, optimizing databases, or bringing a designer&apos; s vision to life, I&apos; m driven by a commitment to clean architecture, usability, and technical excellence.
                 </div>
-                <div className="study my-[30px]"> I am currently pursuing a B.Tech in Information Technology at CMR Engineering College. With a strong passion for coding, full-stack development, and cloud computing, I am dedicated to continuously expanding my technical expertise. I excel in collaborative environments and take pride in designing and implementing efficient, scalable solutions to complex challenges.
+                <div className="study my-[30px]"> I am currently pursuing a B.Tech in Information Technology at CMR Engineering College. With a strong passion for coding, full&#45;stack development, and cloud computing, I am dedicated to continuously expanding my technical expertise. I excel in collaborative environments and take pride in designing and implementing efficient, scalable solutions to complex challenges.
                 </div>
                 <div className="hobbies mt-[30px]"> Outside of academics, I enjoy dancing, painting, and spending time with friends. I also love exploring new ideas and side projects that keep my creativity and curiosity alive. </div>
             </section>
@@ -45,50 +45,50 @@ export default function Home({ setActivestate }) {
                 <div className="edu ">
                     <h1 className="font-cal lg:text-[45px] max-lg:text-[40px]">Education</h1>
                     <div className="box flex p-4 gap-10 text-[rgb(122,142,179)] my-5 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                        <div className="left w-1/4">2022-Present</div> <div className="right">
+                        <div className="left w-1/4">2022&#45;Present</div> <div className="right">
                             <div className="name text-white">B.Tech in Information Technology</div>
                             <div className="clg-name">CMR Engineering College</div>
                         </div>
                     </div>
                     <div className="box flex p-4 gap-10 text-[rgb(122,142,179)] my-5 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                        <div className="left w-1/4">2020-2022</div> <div className="right">
+                        <div className="left w-1/4">2020&#45;2022</div> <div className="right">
                             <div className="name text-white">Intermediate</div>
                             <div className="clg-name">TSWRIES-Jagadgirigutta</div>
                         </div>
                     </div>
                     <div className="box flex p-4 gap-10 text-[rgb(122,142,179)] my-5 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                        <div className="left w-1/4">2019-2020</div> <div className="right">
+                        <div className="left w-1/4">2019&#45;2020</div> <div className="right">
                             <div className="name text-white">Secondary School</div>
-                            <div className="clg-name">St.Ann's Grammar School</div>
+                            <div className="clg-name">St.Ann&apos;s Grammar School</div>
                         </div>
                     </div>
                 </div>
                 <div className="certificated lg:my-[50px]">
                     <div >
-                        <h1 className="font-cal lg:text-[45px] max-lg:text-[40px]">Awards & Achievements</h1>
+                        <h1 className="font-cal lg:text-[45px] max-lg:text-[40px]">Awards &amp; Achievements</h1>
                         <div className="my-2 ">
                             <div className="box flex flex-col p-4 my-2 text-[rgb(122,142,179)] hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)] ">
-                                <div className="my-1 text-white">Runner-up – Full Stack Hackathon 2024</div>
+                                <div className="my-1 text-white">Runner&#45;up &#45; Full Stack Hackathon 2024</div>
                                 <p >
-                                    Developed a Task Management Web App using <span className="text-white">MERN Stack</span> with real-time updates via WebSockets.
+                                    Developed a Task Management Web App using <span className="text-white">MERN Stack</span> with real&#45;time updates via WebSockets.
                                     Recognized for best UI/UX and efficient backend design.
                                 </p>
                             </div>
                             <div className="box flex flex-col p-4 my-2 text-[rgb(122,142,179)] hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                                <div className="my-1 text-white">Paper Presentation – Modern Java Frameworks</div>
+                                <div className="my-1 text-white">Paper Presentation &#45; Modern Java Frameworks</div>
                                 <p >
                                     Presented a paper on “Optimizing APIs using Spring Boot and Redis” at the National IT Symposium.
                                     Awarded for practical implementation and performance insights.
                                 </p>
                             </div>
                             <div className="box flex flex-col p-4  text-[rgb(122,142,179)] hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                                <div className="my-1 text-white">AWS Academy Cloud Architecting Certification – AWS Academy</div>
+                                <div className="my-1 text-white">AWS Academy Cloud Architecting Certification &#45; AWS Academy</div>
                                 <p >
-                                    Completed the  <span className="text-white">AWS Academy Cloud Architecting</span> certification, gaining hands-on experience in designing scalable cloud solutions, deploying applications on AWS, managing storage and databases, and implementing secure cloud architectures.
+                                    Completed the  <span className="text-white">AWS Academy Cloud Architecting</span> certification, gaining hands&#45;on experience in designing scalable cloud solutions, deploying applications on AWS, managing storage and databases, and implementing secure cloud architectures.
                                 </p>
                             </div>
                             <div className="box flex flex-col p-4  text-[rgb(122,142,179)] hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                                <div className="my-1 text-white">Best Mini Project Award – IT Department 2023</div>
+                                <div className="my-1 text-white">Best Mini Project Award &#45; IT Department 2023</div>
                                 <p >
                                      Designed a <span className="text-white">Smart Helmet</span> for workers and bikers using <span className="text-white">Embedded Systems</span>, awarded for <span className="text-white">innovative design and quality</span>.
                                 </p>
@@ -97,7 +97,7 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="skills lg:my-[50px]">
-                    <h1 className=" font-cal lg:text-[45px] text-[40px]">Technical & Soft skills</h1>
+                    <h1 className=" font-cal lg:text-[45px] text-[40px]">Technical &amp; Soft skills</h1>
                     <div className="grid grid-cols-2 p-4 gap-5 my-5 text-[rgb(122,142,179)] ">
                         <div className="program lg:p-4 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
                             <span className="text-white">Frontend</span>
@@ -127,7 +127,7 @@ export default function Home({ setActivestate }) {
                             </ul>
                         </div>
                         <div className="program lg:p-4 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                            <span className="text-white">Cloud & Tools</span>
+                            <span className="text-white">Cloud &amp; Tools</span>
                             <ul>
                                 <li>Git</li>
                                 <li>GitHub</li>
@@ -157,8 +157,8 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                    <div className="title text-[18px]">Real-Time Collaboration Tool</div>
-                    <div className="description text-[rgb(122,142,179)] my-2 "> Built a **Google Docs-like collaborative editor** with **real-time updates** and live cursors.
+                    <div className="title text-[18px]">Real&#45;Time Collaboration Tool</div>
+                    <div className="description text-[rgb(122,142,179)] my-2 "> Built a <span className="text-white">Google Docs&#45;like collaborative editor</span> with <span className="text-white">real&#45;time updates</span> and live cursors.
                     </div>
                     <div className="skills ">
                         <ul className="flex gap-2 flex-wrap text-[15px]">
@@ -172,8 +172,8 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                    <div className="title text-[18px]">E-commerce Platform with Microservices</div>
-                    <div className="description text-[rgb(122,142,179)] my-2 ">Designed a scalable e-commerce web app with **microservices architecture**, order management, and payment integration.
+                    <div className="title text-[18px]">E&#45;commerce Platform with Microservices</div>
+                    <div className="description text-[rgb(122,142,179)] my-2 ">Designed a scalable e&#45;commerce web app with <span className="text-white">microservices architecture</span>, order management, and payment integration.
                     </div>
                     <div className="skills ">
                         <ul className="flex gap-2 flex-wrap text-[15px]">
@@ -189,8 +189,8 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                    <div className="title text-[18px]">Real-Time Data Dashboard</div>
-                    <div className="description text-[rgb(122,142,179)] my-2 ">Created a **real-time analytics dashboard** for monitoring KPIs and live server metrics.
+                    <div className="title text-[18px]">Real&#45;Time Data Dashboard</div>
+                    <div className="description text-[rgb(122,142,179)] my-2 ">Created a <span className="text-white">real&#45;time analytics dashboard</span> for monitoring KPIs and live server metrics.
                     </div>
                     <div className="skills ">
                         <ul className="flex gap-2 flex-wrap text-[15px]">
