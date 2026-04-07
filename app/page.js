@@ -1,7 +1,7 @@
 "use client"
-import Left from "@/app/Leftsection/page";
+import Left from "./Leftsection/Left";
 import Image from "next/image";
-import Right from "@/app/Rightsection/page";
+import Right from "./Rightsection/Right";
 import React, { useEffect, useState } from "react";
 
 
