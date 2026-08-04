@@ -66,7 +66,77 @@ export default function Home({ setActivestate }) {
                         </div>
                     </div>
                 </div>
-                <div className="experience lg:my-[50px]">
+                <section id="Project-Section" className="projects md:my-[50px]">
+                    <h1 className=" lg:text-[45px] max-lg:text-[40px]">Projects</h1>
+                    <div className="project-1 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
+                        <div className="title text-[18px]">AI Career Advisory Platform</div>
+                        <div className="description text-[rgb(122,142,179)] my-2 ">Built an AI&#45;powered career recommendation platform using a Random Forest Classifier to suggest personalized career paths based on students' skills, interests, and academic background.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 ">Developed 20&#43; REST APIs with JWT authentication, role&#45;based access control, and recommendation dashboards using Node.js, Express.js, and MongoDB.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 ">Built an end&#45;to&#45;end ML pipeline with Scikit&#45;learn and deployed predictions through REST APIs with response time under 1 second.
+                        </div>
+                        <div className="skills ">
+                            <ul className="flex gap-2 flex-wrap text-[15px]">
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">React</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">MongoDB</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Express.js</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Node.js</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Tailwind CSS</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">REST APIs</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Authentication</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Python</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Machine Learning</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Deep Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
+                        <div className="title text-[18px]">Greenly - Full-Stack Plant Marketplace with AI Features</div>
+                        <div className="description text-[rgb(122,142,179)] my-2 "> Built a full&#45;stack plant marketplace for 1,000&#43; users with Buyer, Seller, and Admin roles using Next.js, Node.js, Express.js, MongoDB, and PostgreSQL.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 ">Developed 30&#43; REST APIs, real&#45;time chat, order management, and dashboards with JWT authentication and Socket.IO.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 ">Improved application performance by 35&#37; using Next.js SSR, code splitting, and database optimization.
+                        </div>
+                        <div className="skills ">
+                            <ul className="flex gap-2 flex-wrap text-[15px]">
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">WebSocket</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">React</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Express</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Node.js</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">MongoDB</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
+                        <div className="title text-[18px]">Real-Time Chat Application</div>
+                        <div className="description text-[rgb(122,142,179)] my-2 "> Developed a full&#45;stack real&#45;time chat application supporting group and private messaging using Socket.IO and WebSockets.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 "> Built secure JWT&#45;based authentication with protected routes and authorization middleware.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 "> Designed MongoDB schemas for users, messages, and chat rooms with reliable message persistence.
+                        </div>
+                        <div className="description text-[rgb(122,142,179)] my-2 "> Developed a responsive React.js interface with online/offline status indicators and message read receipts.
+                        </div>
+
+                        <div className="skills ">
+                            <ul className="flex gap-2 flex-wrap text-[15px]">
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">WebSocket</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">React</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">JWT</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Node.js</li>
+                                <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">MongoDB</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    
+                </section>
+                {/* <div className="experience lg:my-[50px]">
                     <div >
                         <h1 className="font-cal lg:text-[45px] text-[30px] max-lg:text-[40px]">Experience</h1>
                         <div className="my-2 ">
@@ -87,7 +157,7 @@ export default function Home({ setActivestate }) {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="certificated lg:my-[50px]">
                     <div >
                         <h1 className="font-cal lg:text-[45px] text-[30px] max-lg:text-[40px]">Awards &amp; Achievements</h1>
@@ -182,51 +252,13 @@ export default function Home({ setActivestate }) {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="Project-Section" className="projects md:my-[50px]">
-                <h1 className=" lg:text-[45px] max-lg:text-[40px]">Projects</h1>
-                <div className="project-1 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                    <div className="title text-[18px]">Build</div>
-                    <div className="description text-[rgb(122,142,179)] my-2 ">An AI-based Career Advisory System analyzes a user&apos;s skills, interests, and academic performance torecommend suitable career paths.</div>
-                    <div className="skills ">
-                        <ul className="flex gap-2 flex-wrap text-[15px]">
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">React</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">MongoDB</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Express.js</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Node.js</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Tailwind CSS</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">REST APIs</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Authentication</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Python</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Machine Learning</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Deep Learning</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                    <div className="title text-[18px]">Greenly</div>
-                    <div className="description text-[rgb(122,142,179)] my-2 "> Developed an application is a full-stack agriculture and plant platform that provides detailed information about
-                        plants, organic farming methods, and resources required for cultivation, while also enabling users to buy and
-                        sell plants, seeds, and related products.
-                    </div>
-                    <div className="skills ">
-                        <ul className="flex gap-2 flex-wrap text-[15px]">
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">WebSocket</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">React</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Express</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">Node.js</li>
-                            <li className="border-0 bg-[rgb(28,42,70)] text-cyan-300  p-1 px-2 rounded">MongoDB</li>
-                        </ul>
-                    </div>
-                </div>
-
-
                 <div className="text-[rgb(122,142,179)] m-4 mt-[50px] text-[12px]">Crafted in Visual Studio Code using Next.js and Tailwind CSS, deployed on vercel, and set in the Inter typeface.</div>
-                <div className="rights p-4 flex gap-1 items-center text-[rgb(122,142,179)] ">
-                    <img src="copyrights.svg" className="" width={18} alt="" />
-                    <div className="text-[12px]">2025 Pranaya Dixshetha. All rights reserved.</div>
-                </div>
+                    <div className="rights p-4 flex gap-1 items-center text-[rgb(122,142,179)] ">
+                        <img src="copyrights.svg" className="" width={18} alt="" />
+                        <div className="text-[12px]">2025 Pranaya Dixshetha. All rights reserved.</div>
+                    </div>
             </section>
+
         </div>
     );
 }

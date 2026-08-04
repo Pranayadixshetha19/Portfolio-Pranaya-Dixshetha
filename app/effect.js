@@ -28,5 +28,6 @@ export default function CursorGlow() {
       transition-transform duration-[50] ease-linear 
       z-[9999] opacity-40"
     ></div>
+    
   );
 }
