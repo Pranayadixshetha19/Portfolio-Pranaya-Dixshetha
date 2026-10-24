@@ -38,7 +38,7 @@ export default function Home({ setActivestate }) {
     return (
         <div className="">
             <section id="main" className="text-[rgb(122,142,179)]">
-                <div className="about"> I&apos; m a full-stack developer passionate about building seamless, high&#45;performance web applications where design meets functionality. I love transforming ideas into intuitive digital experiences&#45;from crafting responsive, accessible interfaces to developing scalable backend systems. Whether it&apos; s implementing robust APIs, optimizing databases, or bringing a designer&apos; s vision to life, I&apos; m driven by a commitment to clean architecture, usability, and technical excellence.
+                <div className="about"> I&apos;m a full-stack developer passionate about building seamless, high&#45;performance web applications where design meets functionality. I love transforming ideas into intuitive digital experiences&#45;from crafting responsive, accessible interfaces to developing scalable backend systems. Whether it&apos; s implementing robust APIs, optimizing databases, or bringing a designer&apos; s vision to life, I&apos; m driven by a commitment to clean architecture, usability, and technical excellence.
                 </div>
                 <div className="study my-[30px]"> I am currently pursuing a B.Tech in Information Technology at CMR Engineering College. With a strong passion for coding, full&#45;stack development, and cloud computing, I am dedicated to continuously expanding my technical expertise. I excel in collaborative environments and take pride in designing and implementing efficient, scalable solutions to complex challenges.
                 </div>
@@ -48,7 +48,7 @@ export default function Home({ setActivestate }) {
                 <div className="edu ">
                     <h1 className="font-cal lg:text-[45px] my-5 max-lg:text-[40px]">Education</h1>
                     <div className="box flex p-4 gap-10 text-[rgb(122,142,179)] my-5 hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
-                        <div className="left w-1/4">2022&#45;Present</div> <div className="right">
+                        <div className="left w-1/4">2022&#45;2026</div> <div className="right">
                             <div className="name text-white">B.Tech in Information Technology</div>
                             <div className="clg-name">CMR Engineering College</div>
                         </div>
@@ -66,6 +66,7 @@ export default function Home({ setActivestate }) {
                         </div>
                     </div>
                 </div>
+
                 <section id="Project-Section" className="projects md:my-[50px]">
                     <h1 className=" lg:text-[45px] max-lg:text-[40px]">Projects</h1>
                     <div className="project-1 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
@@ -134,30 +135,28 @@ export default function Home({ setActivestate }) {
 
 
 
-                    
+
                 </section>
-                {/* <div className="experience lg:my-[50px]">
+                <div className="experience lg:my-[50px]">
                     <div >
                         <h1 className="font-cal lg:text-[45px] text-[30px] max-lg:text-[40px]">Experience</h1>
                         <div className="my-2 ">
-                            <div className="box flex flex-col p-4 my-2 text-[rgb(122,142,179)] hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)] ">
-                                <div className="my-1 text-white">C A C Innovation 2025</div>
-                                <ul>
-                                    <li className="">
-                                        Developed full-stack MERN applications integrated with Machine Learning and Deep Learning models to
-                                        enhance scalability and user experience.</li>
-                                    <li> Built responsive React interfaces and optimized performance for faster load times.</li>
-                                    <li>
-                                        Designed RESTful APIs and implemented real-time features using WebSockets.
-                                    </li>
-                                    <li>Applied Python-based ML/DL models for data analysis and intelligent feature development. Utilized knowledge of AI algorithms, data analytics, statistics, and visualization tools. Worked with cloud concepts and demonstrated strong problem-solving, teamwork, and communication skills.
-                                    </li>
-                                </ul>
+                            <div className="project-2 my-5 p-4 text-white hover:shadow-[0px_0px_1px_0px_white]  hover:bg-[rgba(24,58,97,0.2)]">
+                                <div className="title text-[18px]">Full Stack Developer Intern</div>
+                                
+                                <div className="description text-[rgb(122,142,179)] my-2 ">Led the development of a responsive membership exchanging platform using React.js and Tailwind CSS, serving 700+ users
+                                    and boosting user awareness metrics by 40% across desktop and mobile devices.</div>
+                                
+                                <div className="description text-[rgb(122,142,179)] my-2 ">Collaborated with backend developers to streamline API integration, cutting API-related bugs through early testing and
+                                    debugging.</div>
+                                
+                                <div className="description text-[rgb(122,142,179)] my-2 "> Enhanced user onboarding with a minimal, guided layout, increasing task completion rates by 35% in internal usability
+                                    tests</div>
                             </div>
 
                         </div>
                     </div>
-                </div> */}
+                </div>
                 <div className="certificated lg:my-[50px]">
                     <div >
                         <h1 className="font-cal lg:text-[45px] text-[30px] max-lg:text-[40px]">Awards &amp; Achievements</h1>
@@ -253,10 +252,10 @@ export default function Home({ setActivestate }) {
                     </div>
                 </div>
                 <div className="text-[rgb(122,142,179)] m-4 mt-[50px] text-[12px]">Crafted in Visual Studio Code using Next.js and Tailwind CSS, deployed on vercel, and set in the Inter typeface.</div>
-                    <div className="rights p-4 flex gap-1 items-center text-[rgb(122,142,179)] ">
-                        <img src="copyrights.svg" className="" width={18} alt="" />
-                        <div className="text-[12px]">2025 Pranaya Dixshetha. All rights reserved.</div>
-                    </div>
+                <div className="rights p-4 flex gap-1 items-center text-[rgb(122,142,179)] ">
+                    <img src="copyrights.svg" className="" width={18} alt="" />
+                    <div className="text-[12px]">2025 Pranaya Dixshetha. All rights reserved.</div>
+                </div>
             </section>
 
         </div>
